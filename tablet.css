@@ -1,0 +1,609 @@
+@media screen and (max-width: 1300px) {
+  /*-----portfolio page page---------*/
+
+  .portfolio-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px 5px 1px 5px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    width: 24%;
+    min-height: 350px;
+    margin: 1%;
+  }
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1150px) {
+  /*----------------------about page---------*/
+  #about {
+    display: block;
+    position: relative;
+    padding: 400px;
+  }
+  .about-p {
+    color: rgb(0, 0, 0);
+  }
+  .content {
+    color: rgb(0, 0, 0);
+  }
+  .about-hero {
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  .about-content {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: 2;
+  }
+  /*-----service page---------*/
+
+  .all-services {
+    flex-wrap: wrap;
+  }
+  .service-item {
+    width: 40%;
+    padding: 50px 50px;
+    background: #fff;
+    margin: 50px 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  /*-----portfolio page page---------*/
+  #portfolio {
+    padding: 90px 1%;
+  }
+
+  .portfolio-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 50px 10px;
+    border-radius: 10px 5px 1px 5px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    width: 40%;
+    min-height: 350px;
+    margin: 2%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    display: block;
+    position: relative;
+    min-height: 110vh;
+  }
+  .img-hero {
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    z-index: 1;
+    padding: 0px 0px;
+    opacity: 0.6;
+  }
+
+  .hero-info {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    z-index: 2;
+  }
+  /*--------------*/
+  /*-------about page-------*/
+  #about {
+    display: block;
+    position: relative;
+    padding-top: 400px;
+    padding-bottom: 400px;
+  }
+  .about-p {
+    color: rgb(0, 0, 0);
+  }
+  .content {
+    color: rgb(0, 0, 0);
+  }
+  .about-hero {
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  .about-content {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: 2;
+  }
+  /*-----service page---------*/
+
+  .service-item {
+    padding: 50px 50px;
+    background: #fff;
+    margin: 50px 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /*--------------nav-list toggle--------------*/
+  .menu-icon {
+    display: block;
+    padding: 5px 10px;
+    background-color: #8e44ad;
+    border-radius: 8px;
+  }
+  .nav-list {
+    display: none;
+  }
+
+  /*---------------------bannner page-------------*/
+  .home {
+    min-height: 100vh;
+  }
+  .hero-info {
+    margin-top: 3rem;
+  }
+  .banner-h3 {
+    color: #000;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+  }
+  .banner-h1 {
+    font-size: 3.5rem;
+    color: rgb(95, 4, 95);
+  }
+  #banner-animate-text {
+    color: rgba(95, 4, 95, 0.7);
+    font-size: 34px;
+    font-weight: 500;
+  }
+
+  .banner-p {
+    font-size: 0.9rem;
+    color: #000;
+    line-height: 1.5rem;
+  }
+  .btn-box {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .img-hero {
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    z-index: 1;
+    padding: 0px 0px;
+    opacity: 0.6;
+  }
+  .hero-info {
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    z-index: 2;
+  }
+  .img-hero img {
+    width: 184px;
+    position: absolute;
+    top: -17px;
+    left: 18px;
+    z-index: 2;
+  }
+
+  .circle {
+    position: relative;
+    height: 300px;
+    width: 300px;
+  }
+  .circle-color {
+    height: 245px;
+    width: 245px;
+  }
+  .circle-logo {
+    height: 205px;
+    width: 205px;
+  }
+
+  .text span {
+    position: absolute;
+    left: 50%;
+    font-size: 0.95em;
+    font-weight: 600;
+    color: purple;
+    transform-origin: 0 100px;
+    padding: 127px;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .social-media {
+    display: flex;
+  }
+  .bg-icon {
+    height: 30px;
+    width: 30px;
+    border: 3px solid purple;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+  }
+  .social-link {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    color: #8e44ad;
+    font-size: 10px;
+  }
+
+  /*----------about----------------*/
+  #about {
+    display: block;
+    position: relative;
+    padding: 550px 0;
+  }
+  .about-p {
+    color: rgb(0, 0, 0);
+  }
+  .about-btn button {
+    padding: 10px 15px;
+    font-size: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 5px;
+  }
+
+  .content {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: (0, 0, 0, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .text-box {
+    margin-right: 30px;
+  }
+  .about-hero {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  .showcase-ring {
+    display: none;
+  }
+  .cv-content {
+    display: inline-block;
+    margin-top: 50px;
+  }
+  .about-content {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /*-------------service item -----------------*/
+  /*-------------service item -----------------*/
+  .serv-h2 {
+    color: rgb(200, 35, 35);
+    font-size: 15px;
+  }
+  .service-item {
+    padding: 20px 10px;
+    background: #fff;
+    margin: 50px 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .serv-icon-card {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 40px;
+  }
+
+  .serv-icon {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    font-size: 20px;
+  }
+
+  .serv-p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 9px;
+  }
+
+  .proposal {
+    position: relative;
+    display: block;
+    min-height: 50vh;
+  }
+  .proposal-text-box {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 2;
+  }
+  img.first-proposal-image {
+    position: absolute;
+    /* width: 252px; */
+    width: 58%;
+    top: 0;
+    left: 20%;
+    opacity: 0.6;
+  }
+  .showcase {
+    text-align: center;
+  }
+
+  /*-------------!portfolio item -----------------*/
+
+  .portfolio-content h3 {
+    color: purple;
+    font-size: 15px;
+  }
+  .portfolio-box {
+    padding: 0 10px;
+    min-height: 230px;
+  }
+  .portfolio-content p {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  a.read-more {
+    margin: 10px 5px;
+    display: inline-block;
+    font-size: 8px;
+    padding: 5px 7px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /*-------------header section -----------------*/
+
+  .nav-chat {
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 5px;
+  }
+  /*-------------home banner section -----------------*/
+
+  .home {
+    min-height: 80vh;
+  }
+  .hero-info {
+    margin-top: 3rem;
+  }
+  .banner-h3 {
+    color: #000;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  .banner-h1 {
+    font-size: 25px;
+    color: rgb(95, 4, 95);
+  }
+  #banner-animate-text {
+    color: rgba(95, 4, 95, 0.7);
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .banner-p {
+    font-size: 11px;
+    color: #000;
+    line-height: 1.5rem;
+  }
+  .btn-box {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+  }
+  .btn {
+    font-size: 10px;
+    padding: 4px 7px;
+  }
+  .img-hero {
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    z-index: 1;
+    padding: 0px 0px;
+    opacity: 0.6;
+  }
+  .hero-info {
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    z-index: 2;
+  }
+  .img-hero img {
+    width: 88px;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    z-index: 2;
+  }
+
+  .circle {
+    position: relative;
+    height: 200px;
+    width: 200px;
+  }
+  .circle-color {
+    height: 150px;
+    width: 150px;
+  }
+  .circle-logo {
+    height: 110px;
+    width: 110px;
+  }
+
+  .text span {
+    position: absolute;
+    left: 50%;
+    font-size: 10px;
+    font-weight: 600;
+    color: purple;
+    transform-origin: 0 100px;
+    padding: 86px;
+    margin-top: -49px;
+    margin-left: 4px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-icon {
+    height: 30px;
+    width: 30px;
+    border: 3px solid purple;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+  }
+  .social-link {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    color: #8e44ad;
+    font-size: 10px;
+  }
+  /*-------------about item -----------------*/
+  #about {
+    display: block;
+    position: relative;
+    padding: 400px 0;
+  }
+  h2.about-h2 {
+    font-size: 25px;
+  }
+
+  h3.about-h3 {
+    font-size: 15px;
+    opacity: 0.9;
+  }
+
+  p.about-p {
+    font-size: 9px;
+  }
+
+  p.content-p {
+    font-size: 15px;
+  }
+
+  .text-box span {
+    font-size: 9px;
+  }
+
+  .content {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .about-hero {
+    position: absolute;
+    top: 90px;
+  }
+
+  .cv-content {
+    margin-top: 0px;
+  }
+
+  /*-------------service item -----------------*/
+  .serv-h2 {
+    color: rgb(200, 35, 35);
+    font-size: 15px;
+  }
+  .service-item {
+    padding: 20px 10px;
+    width: 100%;
+    background: #fff;
+    margin: 20px 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .serv-icon-card {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 40px;
+  }
+  .serv-icon {
+    .serv-icon {
+      position: absolute;
+      top: 9px;
+      left: 10px;
+      font-size: 20px;
+    }
+  }
+  .serv-p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 9px;
+  }
+  /*-------------portfolio item item -----------------*/
+  .portfolio-box {
+    padding: 4px 20px;
+    min-height: 230px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .home {
+    min-height: 83vh;
+  }
+  .btn-box {
+    margin-left: -15%;
+  }
+  .social-media {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #about {
+    display: block;
+    position: relative;
+    padding: 600px 0;
+  }
+}
